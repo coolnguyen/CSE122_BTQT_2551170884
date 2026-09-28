@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 20px;
+    font-family: "Times New Roman", serif;
+    font-size: 18px;
+}
+
+main{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1{
+    color:#C2185B;
+    text-align: center;
+    font-size: 28px;
+}
+
+img{
+    float:left;
+    width:25%;
+    border-radius: 8px;
+}
+
+section{
+    margin-left: 28%;
+}
+
+h2{
+    font-size:18px;
+}
+
+h2 span{
+    background-color: #FFC0CB;
+    padding: 3px, 10px;
+}
+
+ul{
+    padding-left: 22px;
+    line-height: 1.8;
+}
+
+.gioi-thieu{
+    list-style-type:square;
+}
+
+.lien-he{
+    list-style-type: circle;
+}
+
+footer{
+    margin-top: 20px;
+    text-align: right;
+}
+
+a{
+    color:#0000EE;
+    text-decoration: underline;
+}
+
