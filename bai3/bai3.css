@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 30px, 20px;
+    min-height: 100vh;
+    background: linear-gradient(#7ec8e3,#0a5c8a);
+    font-family: "Times New Roman", serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: rgb(254, 253, 253);
+    border-radius: 10px;
+}
+
+h1{
+    margin-top: 0;
+    color: #0b3d5c;
+    font-size:28px;
+    text-align: center;
+}
+
+.mo-dau{
+    padding: 15px;
+    background-color: #0b3d5c;
+    color: white;
+    font-style:italic;
+    border-radius: 5px;
+}
+
+img{
+    float: right;
+    width: 34%;
+    margin: 0 0 15px 20px;
+    border-radius: 8px;
+}
+
+.noi-dung{
+    text-align: justify;
+}
+
+.noi-dung::first-letter{
+    color:#0b3d5c;
+    font-size: 45px;
+    font-weight: bold;
+}
