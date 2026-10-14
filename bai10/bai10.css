@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 40px 16px;
+    background: #f1f5f9;
+    font-family: Arial, sans-serif;
+    color: #334155;
+}
+
+.the-form {
+    max-width: 640px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.tieu-de {
+    background: #0f766e;
+    color: #ffffff;
+    padding: 24px 32px;
+}
+
+.tieu-de h1 {
+    margin: 0 0 6px;
+    font-size: 26px;
+}
+
+.tieu-de p {
+    margin: 0;
+    font-size: 14px;
+}
+
+form {
+    padding: 24px 32px 32px;
+}
+
+.hai-cot {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 16px;
+}
+
+.o-nhap {
+    margin-bottom: 16px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 15px;
+    font-family: inherit;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #0f766e;
+    box-shadow: 0 0 0 3px rgba(15, 118, 110, 0.2);
+}
+
+.dong-y {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+
+.dong-y input {
+    width: auto;
+}
+
+.dong-y label {
+    margin: 0;
+    font-weight: normal;
+}
+
+.nut {
+    display: flex;
+    gap: 12px;
+}
+
+button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.nut-gui {
+    background: #0f766e;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.nut-gui:hover {
+    background: #115e59;
+}
+
+.nut-nhap-lai {
+    background: #e2e8f0;
+    color: #334155;
+}
+
+.nut-nhap-lai:hover {
+    background: #cbd5e1;
+}
+
+@media (max-width: 600px) {
+    .hai-cot {
+        grid-template-columns: 1fr;
+    }
+
+    .tieu-de,
+    form {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

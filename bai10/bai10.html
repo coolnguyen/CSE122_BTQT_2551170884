@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên hệ với chúng tôi</title>
+    <link rel="stylesheet" href="bai10.css">
+</head>
+<body>
+    <div class="the-form">
+        <div class="tieu-de">
+            <h1>Liên hệ với chúng tôi</h1>
+            <p>Vui lòng điền thông tin bên dưới, chúng tôi sẽ phản hồi trong 24 giờ.</p>
+        </div>
+
+        <form>
+            <div class="hai-cot">
+                <div class="o-nhap">
+                    <label for="ho-ten">Họ và tên</label>
+                    <input type="text" id="ho-ten" placeholder="Nguyễn Văn An" required>
+                </div>
+                <div class="o-nhap">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="an.nv@tlu.edu.vn" required>
+                </div>
+                <div class="o-nhap">
+                    <label for="sdt">Số điện thoại</label>
+                    <input type="tel" id="sdt" placeholder="0987 654 321">
+                </div>
+                <div class="o-nhap">
+                    <label for="chu-de">Chủ đề</label>
+                    <select id="chu-de">
+                        <option>Hỏi về khoá học</option>
+                        <option>Hỗ trợ kỹ thuật</option>
+                        <option>Góp ý</option>
+                        <option>Khác</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="o-nhap">
+                <label for="noi-dung">Nội dung</label>
+                <textarea id="noi-dung" rows="4" placeholder="Nhập nội dung bạn muốn gửi..." required></textarea>
+            </div>
+
+            <div class="dong-y">
+                <input type="checkbox" id="dong-y" checked>
+                <label for="dong-y">Tôi đồng ý nhận email phản hồi.</label>
+            </div>
+
+            <div class="nut">
+                <button type="submit" class="nut-gui">Gửi liên hệ</button>
+                <button type="reset" class="nut-nhap-lai">Nhập lại</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
