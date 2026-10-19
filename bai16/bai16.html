@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 16 - Danh sách việc cần làm</title>
+    <link rel="stylesheet" href="bai16.css">
+</head>
+
+<body>
+    <main class="the">
+        <header class="dau">
+            <h1>Danh sách việc cần làm</h1>
+            <p>Thêm việc mới, đánh dấu hoàn thành hoặc xoá — tất cả bằng JavaScript.</p>
+        </header>
+        <form id="form-them" class="them">
+            <input type="text" id="o-viec" placeholder="Hoàn thành bài tập Lập trình Web" autocomplete="off">
+            <button type="submit">Thêm</button>
+        </form>
+        <ul id="ds" class="ds">
+            <li>
+                <label>
+                    <input type="checkbox" checked>
+                    <span class="o"></span>
+                    <span class="chu">Đọc chương HTML5 cơ bản</span>
+                </label>
+                <button type="button" class="xoa">Xoá</button>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox">
+                    <span class="o"></span>
+                    <span class="chu">Làm bài tập CSS Grid</span>
+                </label>
+                <button type="button" class="xoa">Xoá</button>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox">
+                    <span class="o"></span>
+                    <span class="chu">Quay video OBS nộp bài</span>
+                </label>
+                <button type="button" class="xoa">Xoá</button>
+            </li>
+        </ul>
+        <p id="con-lai" class="con-lai"></p>
+    </main>
+    <script src="bai16.js"></script>
+</body>
+
+</html>
