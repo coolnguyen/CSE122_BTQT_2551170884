@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: #fff7ed;
+    font-family: Arial, sans-serif;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 16px;
+}
+
+.the {
+    width: 100%;
+    max-width: 480px;
+    background: #ffffff;
+    border: 1px solid #fed7aa;
+    border-radius: 12px;
+    padding: 28px;
+    box-shadow: 0 12px 32px rgba(194, 65, 12, 0.12);
+}
+
+.the h1 {
+    color: #c2410c;
+    font-size: 24px;
+    margin-bottom: 6px;
+}
+
+.mo-ta {
+    color: #6b7280;
+    font-size: 14px;
+    margin-bottom: 22px;
+}
+
+.truong {
+    margin-bottom: 12px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    color: #334155;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 11px 12px;
+    border: 1.5px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: border-color 0.2s, background 0.2s, box-shadow 0.2s;
+}
+
+input:focus {
+    outline: none;
+    border-color: #c2410c;
+    box-shadow: 0 0 0 3px #ffedd5;
+}
+
+input.dung {
+    border-color: #16a34a;
+}
+
+input.sai {
+    border-color: #dc2626;
+    background: #fef2f2;
+}
+
+input.dung:focus {
+    box-shadow: 0 0 0 3px #dcfce7;
+}
+
+input.sai:focus {
+    box-shadow: 0 0 0 3px #fee2e2;
+}
+
+.thong-bao {
+    display: block;
+    min-height: 18px;
+    margin-top: 6px;
+    font-size: 13px;
+}
+
+.thong-bao.dung {
+    color: #16a34a;
+}
+
+.thong-bao.sai {
+    color: #dc2626;
+}
+
+button {
+    width: 100%;
+    margin-top: 8px;
+    padding: 13px;
+    background: #c2410c;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+}
+
+button:hover {
+    background: #9a3412;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+.thanh-cong {
+    margin-top: 16px;
+    padding: 12px;
+    background: #dcfce7;
+    color: #166534;
+    border-radius: 8px;
+    font-size: 14px;
+    text-align: center;
+}

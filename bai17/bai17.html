@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 17 - Kiểm tra biểu mẫu</title>
+    <link rel="stylesheet" href="bai17.css">
+</head>
+
+<body>
+    <main class="the">
+        <h1>Đăng ký tài khoản</h1>
+        <p class="mo-ta">Dữ liệu được kiểm tra bằng JavaScript trước khi gửi.</p>
+        <form id="form-dang-ky" novalidate>
+            <div class="truong">
+                <label for="ho-ten">Họ và tên</label>
+                <input type="text" id="ho-ten" placeholder="Nguyễn Văn An" autocomplete="name">
+                <small class="thong-bao"></small>
+            </div>
+            <div class="truong">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="an.nv@tlu.edu.vn" autocomplete="email">
+                <small class="thong-bao"></small>
+            </div>
+            <div class="truong">
+                <label for="mat-khau">Mật khẩu</label>
+                <input type="password" id="mat-khau" placeholder="Ít nhất 6 ký tự" autocomplete="new-password">
+                <small class="thong-bao"></small>
+            </div>
+            <div class="truong">
+                <label for="xac-nhan">Xác nhận mật khẩu</label>
+                <input type="password" id="xac-nhan" placeholder="Nhập lại mật khẩu" autocomplete="new-password">
+                <small class="thong-bao"></small>
+            </div>
+            <button type="submit">Đăng ký</button>
+        </form>
+        <p id="thanh-cong" class="thanh-cong" hidden></p>
+    </main>
+    <script src="bai17.js"></script>
+</body>
+
+</html>
