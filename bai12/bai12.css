@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: #eef2f7 url("Anh/Bai12/Nen.gif");
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+.khung {
+    width: 100%;
+    max-width: 520px;
+    background: #ffffff;
+    padding: 28px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.lich {
+    background: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Georgia, serif;
+}
+
+#nam {
+    color: #c62828;
+    font-size: 14px;
+}
+
+#thang,
+#thu {
+    color: #1565c0;
+    font-size: 18px;
+}
+
+#ngay {
+    color: #c62828;
+    font-size: 52px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+#loichao {
+    color: #c62828;
+    font-family: Georgia, serif;
+    font-size: 22px;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.nhap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 12px;
+    border: 2px solid #1565c0;
+    border-radius: 12px;
+    padding: 16px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    font-size: 16px;
+}
+
+input {
+    width: 88px;
+    padding: 6px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    font-size: 16px;
+    text-align: center;
+}
+
+button {
+    background: #546e7a;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 18px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background: #37474f;
+}
