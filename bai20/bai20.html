@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 20 - Hiệu ứng ảnh với CSS Filter</title>
+    <link rel="stylesheet" href="bai20.css">
+</head>
+
+<body>
+    <div class="frame">
+        <img id="rose" src="../Anh/Bai20/hoahong.gif" alt="Hoa hồng">
+        <div class="text">Special For You</div>
+    </div>
+    <div class="buttons">
+        <button class="active" onclick="applyEffect(this,'gray')">Gray</button>
+        <button onclick="applyEffect(this,'xray')">Xray</button>
+        <button onclick="applyEffect(this,'invert')">Invert</button>
+        <button onclick="applyEffect(this,'fliph')">FlipH</button>
+        <button onclick="applyEffect(this,'flipv')">FlipV</button>
+        <button onclick="applyEffect(this,'glow')">Glow</button>
+        <button onclick="applyEffect(this,'shadow')">Shadow</button>
+        <button onclick="applyEffect(this,'boldshadow')">Bold Shadow</button>
+        <button onclick="applyEffect(this,'dropshadow')">DropShadow</button>
+        <button onclick="applyEffect(this,'blur')">Blur</button>
+        <button onclick="applyEffect(this,'wave')">Wave</button>
+        <button onclick="applyEffect(this,'mask')">Mask</button>
+        <button onclick="applyEffect(this,'alpha')">Alpha</button>
+    </div>
+    <svg width="0" height="0">
+        <filter id="wave">
+            <feTurbulence type="turbulence" baseFrequency="0.02" numOctaves="3" result="turbulence" />
+            <feDisplacementMap in="SourceGraphic" in2="turbulence" scale="15" />
+        </filter>
+    </svg>
+    <script src="bai20.js"></script>
+</body>
+
+</html>
