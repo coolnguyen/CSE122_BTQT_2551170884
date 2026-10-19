@@ -1,0 +1,131 @@
+:root {
+    --nen: #f8fafc;
+    --chu: #0f172a;
+    --the: #ffffff;
+    --vien: #e2e8f0;
+    --nhan: #2563eb;
+    --phu: #64748b;
+}
+
+body.toi {
+    --nen: #0f172a;
+    --chu: #e2e8f0;
+    --the: #1e293b;
+    --vien: #334155;
+    --nhan: #60a5fa;
+    --phu: #94a3b8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tahoma, Arial, sans-serif;
+    background: var(--nen);
+    color: var(--chu);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    background: var(--nen);
+    transition: background 0.3s;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header h2 {
+    font-size: 20px;
+    color: var(--chu);
+    transition: color 0.3s;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 52px;
+    height: 28px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #94a3b8;
+    transition: 0.3s;
+    border-radius: 28px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.3s;
+    border-radius: 50%;
+}
+
+input:checked+.slider {
+    background-color: #2563eb;
+}
+
+input:checked+.slider:before {
+    transform: translateX(24px);
+    background-color: #ffffff;
+}
+
+.card {
+    background: var(--the);
+    border: 1px solid var(--vien);
+    border-radius: 10px;
+    padding: 16px;
+    margin-bottom: 12px;
+    transition: background 0.3s, border-color 0.3s;
+}
+
+.card h3 {
+    font-size: 15px;
+    color: var(--nhan);
+    margin-bottom: 6px;
+    transition: color 0.3s;
+}
+
+.card p {
+    font-size: 13px;
+    color: var(--chu);
+    line-height: 1.5;
+    transition: color 0.3s;
+}
+
+.status {
+    font-size: 12px;
+    color: var(--phu);
+    margin-top: 10px;
+    transition: color 0.3s;
+}
