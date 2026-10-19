@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tahoma, Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.carousel-inner img {
+    height: 340px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.45);
+    border-radius: 8px;
+    padding: 8px 15px;
+    max-width: 60%;
+    margin: 0 auto 15px;
+}
+
+.carousel-caption h5 {
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.carousel-caption p {
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+.nav-pills .nav-link {
+    color: #0d6efd;
+    font-weight: 500;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #0d6efd;
+    color: #ffffff;
+}
+
+.tab-content {
+    max-width: 100%;
+}
