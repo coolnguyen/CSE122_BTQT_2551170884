@@ -1,0 +1,75 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #fdfaf6;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Lora', serif;
+}
+
+.tieu-de {
+    color: #E65100;
+    font-size: 38px;
+    margin-bottom: 5px;
+}
+
+.phu-de {
+    color: #E65100;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.anh-minh-hoa {
+    float: right;
+    border-radius: 8px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.doan-dau::first-letter {
+    color: #E65100;
+    font-size: 58px;
+    float: left;
+    margin-right: 12px;
+    line-height: 0.85;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+}
+
+.khoi-huong-vi {
+    border: 2px solid #2E7D32;
+    background-color: #f4fbf4;
+    padding: 25px;
+    border-radius: 12px;
+    clear: both;
+    margin-top: 35px;
+}
+
+.tieu-de-khoi {
+    color: #2E7D32;
+    font-style: italic;
+    margin-top: 0;
+    font-size: 22px;
+}
+
+.danh-sach {
+    columns: 2;
+    list-style-image: url('icon_list_c.gif');
+    font-size: 17px;
+}
+
+.danh-sach li {
+    margin-bottom: 12px;
+}
